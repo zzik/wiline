@@ -1,0 +1,41 @@
+/* intention was to use scss */
+/* other selectors were exclusively non-HTML */
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display {
+  max-width: 50%;
+}
+.control {
+  flex: 1;
+}
+.input {
+  flex: 3;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.profile-section {
+  padding: 20px;
+  border: 1px solid black;
+  width: 360px;
+  text-align: justify;
+}
+#top {
+  margin-top: 10px;
+}
+#bottom {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
