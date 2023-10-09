@@ -6,10 +6,10 @@ Instructions:
 
 ```
 git clone https://github.com/zzik/wiline
-cd ../server
+cd server
 npm i
 npx nodemon index.ts
-cd client
+cd ../client
 npm i
 npm start
 ```
