@@ -16,3 +16,9 @@ const userData = async (): Promise<User[]> => {
   const usersData = await response.json();
   return usersData;
 };
+// react query API and http call
+const Users: React.FC = () => {
+  const { data, isLoading, isError } = useQuery({
+    queryKey: ["users"],
+    queryFn: userData,
+  });
